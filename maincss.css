@@ -1,4 +1,11 @@
- #header{
+html { 
+  background: url(image/MainImg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#header{
   color:white;
   text-align:left;
   font-size:25px;
