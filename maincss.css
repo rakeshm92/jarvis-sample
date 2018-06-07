@@ -1,7 +1,7 @@
 body{
 font-family: "Trebuchet MS";
 font-size:15px;
-background:url('/images/MainImg.jpg');
+background:url('https://i0.wp.com/read.unanth.com/wp-content/uploads/2017/09/Unanth-Jarvis.jpg?resize=1400%2C788');
 
 background-repeat: repeat;
 background-size:cover;
@@ -30,9 +30,7 @@ overflow:hidden;
   text-align:center;
   color:white;
   }
-  .body{
-      background-image: url('https://i0.wp.com/read.unanth.com/wp-content/uploads/2017/09/Unanth-Jarvis.jpg?resize=1400%2C788');
-  }
+ 
 #chat-panel{
 text-align:center;
 bottom: 0;
