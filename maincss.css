@@ -1,7 +1,7 @@
 body{
 font-family: "Trebuchet MS";
 font-size:15px;
-background:url('https://raw.githubusercontent.com/Bizz-ml/website/gh-pages/images/homebg.jpg');
+background:url('/images/MainImg.jpg');
 
 background-repeat: repeat;
 background-size:cover;
