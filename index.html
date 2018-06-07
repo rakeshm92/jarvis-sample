@@ -1,17 +1,23 @@
-<!DOCTYPE html>
-<html>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body>
-<div class="w3-top">
-    <img class="w3-image" src="https://i0.wp.com/read.unanth.com/wp-content/uploads/2017/09/Unanth-Jarvis.jpg?resize=1400%2C788" alt="Architecture" width="100%" height="100%">  
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button"><b>J.A.R.V.I.S</b><br>[Just a Rather Very Intelligent System]
-    </a>    
-    </div>
+<body class="body">
+<div id="header"><b>J.A.R.V.I.S</b><br>[Just a Rather Very Intelligent System]</div>
+<div id="description">
+<br><br>
+JAVRIS is a chat assistant to reduce the efforts taken by the team<br> to do routine activities, also it will monitor the system and predict<br>the events which makes the system down.
+</div>
+<div class="frame" id="frame">
+   <div class="panel panel-primary" style="z-index: 1000">
+   <div id="chat-panel" class="panel-heading" ><small><i>Chat Here with</i></small><br><b>IDEA Bot</b>
+   </div>
   </div>
-<header class="w3-display-container w3-content w3-wide" style="max-width:100%;" id="home">
-</header>
+    <div class="innerframe" style="display:none">
+   <ul id="messages"></ul>
+    <div id="message-box">
+     <div class="msj-rta macro" style="margin:auto">                        
+      <div class="text text-l" >
+       <input class="mytext" placeholder="Type a message"/>
+      </div> 
+     </div>
+    </div>
+   </div>
+  </div>
 </body>
-</html>
